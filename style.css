@@ -8,6 +8,11 @@ body {
     display: flex;
 }
 
+.page {
+    display: flex;
+    justify-content: space-between;
+}
+
 /*style numbers*/
 .numbers {
     background-color: rgb(0, 124, 2);
