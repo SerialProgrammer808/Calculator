@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.keypad {
+    display: flex;
+}
+
+/*style numbers*/
+.numbers {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    min-width: 360px;
+    border: 4px solid black;
+}
+
+.zero-to-two, .three-to-five, .six-to-eight, .nine {
+    display: flex;
+    gap: 50px;
+    
+}
+
+.numbers p {
+    min-width: 70px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: 2px;
+    background-color: lightslategray;
+    font-weight: bold;
+}
+
+/*style operators*/
+.operators {
+    background-color: lightblue;
+    min-width: 40px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+    min-width: 196px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black
+}
+
+.operators p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: lightslategray;
+    min-width: 100px;
+    min-height: 35px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*style equation bar*/
+.equation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 600px;
+    min-height: 75px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+}
+
+.equation p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 90%;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: lightslategray;
+    font-size: 24px;
+}
